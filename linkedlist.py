@@ -6,12 +6,13 @@ class Node:
         self.next=next
 
 
-
+#creating node elements with default address as None
 n1=Node(1)
 n2=Node(2)
 n3=Node(3)
 n4=Node(4)
 
+#now updating  adress of next element in previous
 n1.next=n2
 n2.next=n3
 n3.next=n4
