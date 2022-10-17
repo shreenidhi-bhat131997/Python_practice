@@ -14,7 +14,7 @@ class Stack:
     def stack_pop(self):
         if len(self._store) == 0:
             raise ValueError("Stack is empty..")
-        return self._store.pop(-1)
+        return self._store.pop()
     
     def stack_peek(self):
         if len(self._store) == 0:
@@ -38,7 +38,7 @@ print("peeking", stack1.stack_peek())
 print("popping",stack1.stack_pop())
 print("peeking", stack1.stack_peek())
 print("popping",stack1.stack_pop())
-print("peeking", stack1.stack_peek())
+
 
 
 
